@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Altcademy</title>
+    <style>
+      section,
+      footer {
+        background-color: #bfefff;
+        padding: 20px;
+        margin: 2.5%;
+        box-sizing: border-box;
+      }
+      #left {
+        width: 45%;
+        float: left;
+      }
+      #right {
+        width: 45%;
+        float: right;
+      }
+      .clearfix:before,
+      .clearfix:after {
+        content: "";
+        display: table;
+      }
+      .clearfix:after {
+        clear: both;
+      }
+      .clearfix {
+        clear: both;
+        *zoom: 1;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="clearfix">
+      <section id="left">Float left</section>
+      <section id="right">Float Right</section>
+    </div>
+    <footer>Footer</footer>
+  </body>
+</html>
