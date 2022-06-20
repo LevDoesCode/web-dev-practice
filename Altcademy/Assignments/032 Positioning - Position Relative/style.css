@@ -1,0 +1,18 @@
+div {
+  height: 100px;
+  width: 100px;
+  background-color: #DDD;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.relative-position {
+  position: relative;
+  left: 25px;
+  top: 25px;
+  background-color: #66C2F3;
+  color: white;
+  text-align: center;
+  border-radius: 0.50em;
+}
