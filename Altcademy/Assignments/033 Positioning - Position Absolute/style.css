@@ -1,0 +1,20 @@
+.relative {
+  position: relative;
+  height: 500px;
+  width: 100%;
+  background-color: #DDD;
+}
+
+.absolute {
+  width: 200px;
+  height: 100px;
+  position: absolute;
+  bottom: 30px;
+  right: 60px;
+  background-color: #66C2F3;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  border-radius: 0.50em;
+}
