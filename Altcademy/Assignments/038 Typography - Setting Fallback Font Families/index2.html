@@ -1,0 +1,79 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      h1 {
+        color: #192a53;
+        font: bold 24px/24px sans-serif;
+      }
+      h3 {
+        font-variant: small-caps;
+      }
+      h5 {
+        font-style: italic;
+      }
+      a:hover {
+        color: pink;
+      }
+      .col {
+        width: 32%;
+        border: 1px solid #bbb;
+        display: inline-block;
+        margin-top: 40px;
+      }
+      .top {
+        vertical-align: top;
+      }
+      .bottom {
+        vertical-align: bottom;
+      }
+    </style>
+  </head>
+  <body>
+    <h1><a href="#">Hello World!</a></h1>
+    <h3>This is small caps</h3>
+    <h5>Italy</h5>
+    <br />
+    <div class="vertical-align-examples">
+      <p>
+        baseline: <span style="vertical-align: baseline">😊</span> top:
+        <span style="vertical-align: top">😊</span> middle:
+        <span style="vertical-align: middle">😊</span> bottom:
+        <span style="vertical-align: bottom">😊</span> super:
+        <span style="vertical-align: super">😊</span> sub:
+        <span style="vertical-align: sub">😊</span>
+      </p>
+      <p>
+        text-top: <span style="vertical-align: text-top">😊</span> text-bottom:
+        <span style="vertical-align: text-bottom">😊</span> 0.2em:
+        <span style="vertical-align: 0.2em">😊</span> -1em:
+        <span style="vertical-align: -1em">😊</span> 20%:
+        <span style="vertical-align: 20%">😊</span> -100%:
+        <span style="vertical-align: -100%">😊</span>
+      </p>
+    </div>
+    <br />
+    <div>
+      <div class="col">
+        <p>default</p>
+        <p>Line 1</p>
+        <p>Line 2</p>
+        <p>Line 3</p>
+        <p>Line 4</p>
+      </div>
+      <div class="col top">
+        <p>top</p>
+        <p>Line 1</p>
+        <p>Line 2</p>
+      </div>
+      <div class="col bottom">
+        <p>bottom</p>
+        <p>Line 1</p>
+        <p>Line 2</p>
+      </div>
+    </div>
+  </body>
+</html>
