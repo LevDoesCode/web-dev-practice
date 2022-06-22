@@ -1,0 +1,161 @@
+.pink {
+  background-color: rgba(242, 100, 100, 0.5);
+  width: auto;
+  height: 100px;
+}
+
+.blue {
+  /* fallback */
+  background-color: rgb(100, 242, 242);
+  background-color: rgbaa(100, 242, 242, 0.5);
+  height: 100px;
+}
+
+.gold {
+  background-color: gold;
+}
+
+.orange {
+  background-color: orange;
+}
+
+.maroon {
+  display: inline-block;
+  height: 100px;
+  background-color: maroon;
+}
+
+.maroon2 {
+  width: 100px;
+}
+
+.img1 {
+  background-image: url("image.jpg");
+  height: 100px;
+}
+
+.img2 {
+  background-image: url("image.jpg");
+  height: 100px;
+  width: 100px;
+}
+
+.img3 {
+  background-image: url("image.jpg");
+  height: 100px;
+  width: 500px;
+  background-position: right top;
+}
+
+.img4 {
+  background-image: url("image.jpg");
+  height: 100px;
+  width: 500px;
+  background-position: center;
+  background-position: 50% 50%;
+}
+
+.img5 {
+  background-image: url("image.jpg");
+  height: 100px;
+  width: 500px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  outline: blue solid 1px;
+}
+
+.img6 {
+  background-image: url("image.jpg");
+  height: 150px;
+  width: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  outline: green solid 1px;
+}
+
+.img7 {
+  background-image: url("image.jpg");
+  height: 150px;
+  width: 500px;
+  background-repeat: no-repeat;
+  background-size: 50%;
+  outline: green solid 1px;
+}
+
+.img8 {
+  background-image: url("image.jpg");
+  height: 150px;
+  width: 500px;
+  background-repeat: no-repeat;
+  background-size: 50% auto;
+  background-position: top right;
+  outline: green solid 1px;
+}
+
+.img9 {
+  background: rgb(100, 100, 200) url("image.jpg") center no-repeat;
+  height: 100px;
+}
+
+.grd1 {
+  color: black;
+  background: #64E3EE;
+  background: linear-gradient(yellow, purple);
+  height: 100px;
+  margin-bottom: 20px;
+}
+
+.grd2 {
+  color: black;
+  background: #64E3EE;
+  background: linear-gradient(0deg, yellow, purple);
+  height: 100px;
+  margin-bottom: 20px;
+}
+
+.grd3 {
+  color: black;
+  background: #64E3EE;
+  background: linear-gradient(90deg, yellow, purple);
+  height: 100px;
+  margin-bottom: 20px;
+}
+
+.grd4 {
+  color: black;
+  background: #64E3EE;
+  background: linear-gradient(180deg, yellow, purple);
+  height: 100px;
+  margin-bottom: 20px;
+}
+
+.grd5 {
+  color: black;
+  background: #64E3EE;
+  background: linear-gradient(360deg, yellow, purple);
+  height: 100px;
+  margin-bottom: 20px;
+}
+
+.grd6 {
+  color: black;
+  background: #64E3EE;
+  background: linear-gradient(90deg, yellow, blue, purple);
+  height: 100px;
+  margin-bottom: 20px;
+}
+
+.grd7 {
+  color: black;
+  background: radial-gradient(white, #002BFF);
+  height: 100px;
+  margin-bottom: 20px;
+}
+
+.grd8 {
+  color: black;
+  background: radial-gradient(white, red, #002BFF);
+  height: 100px;
+  margin-bottom: 20px;
+}
