@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Altcademy</title>
+    <style>
+      fieldset {
+        padding: 20px;
+        margin-bottom: 10px;
+      }
+      label,
+      input,
+      textarea {
+        display: block;
+      }
+      input,
+      textarea {
+        margin-bottom: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <form>
+      <fieldset>
+        <legend>Personal Info</legend>
+        <label>
+          Fist name
+          <input type="text" name="first_name" />
+        </label>
+        <label>
+          Last Name
+          <input type="text" name="last_name" />
+        </label>
+        <label>
+          Birthday
+          <input type="date" name="birthday" />
+        </label>
+      </fieldset>
+      <fieldset>
+        <legend>Extra Info</legend>
+        <label>
+          <textarea name="biography"></textarea>
+        </label>
+      </fieldset>
+    </form>
+  </body>
+</html>
