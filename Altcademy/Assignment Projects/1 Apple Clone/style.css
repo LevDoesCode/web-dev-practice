@@ -260,9 +260,9 @@ h2 {
   flex-flow: row nowrap;
 }
 
-.col-3 {
+.col-1-4 {
   display: inline-block;
-  width: calc((100% / 12) * 4);
+  width: calc(100% / 4);
 }
 
 #hero-sub-1 {
@@ -293,5 +293,114 @@ h2 {
 }
 
 .hero-sub a:hover {
+  text-decoration: underline;
+}
+
+.col-1-5 {
+  display: inline-block;
+  width: calc(100% / 5);
+}
+
+footer {
+  color: #666666;
+  background-color: #F2F2F2;
+  font-size: 12px;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+.footer-wall {
+  display: flex;
+  flex-flow: row nowrap;
+  padding-top: 20px;
+}
+
+.footer-wall ul {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: left;
+}
+
+.footer-wall ul:not(:first-child) {
+  padding-top: 20px;
+}
+
+.footer-wall ul>li>a {
+  color: #666666;
+  text-decoration: none;
+}
+
+.footer-wall ul>li>a:hover {
+  color: #333333;
+  text-decoration: underline;
+}
+
+.footer-wall ul>li:first-child {
+  font-weight: 600;
+}
+
+.footer-molding {
+  padding: 20px 0;
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.footer-molding p {
+  flex-grow: 1;
+  width: 100%;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #d6d6d6;
+}
+
+.footer-molding p a {
+  text-decoration: none;
+  color: #0088CC;
+}
+
+.footer-molding p a:hover {
+  text-decoration: underline;
+  color: #666666;
+}
+
+#legal {
+  padding-right: 20px;
+}
+
+#legal-links a{
+  padding: 0 10px;
+  text-decoration: none;
+  color: #666666;
+}
+
+#legal-links a:hover{
+  text-decoration: underline;
+  color: #333333;
+}
+
+#legal-links > a:not(:last-child) {
+  border-right: 1px solid #d6d6d6;
+  margin-right: 10px;
+}
+
+#locale {
+  margin-left: auto;
+  text-align: center;
+}
+
+#locale-flag {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background: url("images/usa.png") no-repeat;
+}
+
+#locale a {
+  color: #333333;
+  text-decoration: none;
+}
+
+#locale a:hover {
+  color: #666666;
   text-decoration: underline;
 }
