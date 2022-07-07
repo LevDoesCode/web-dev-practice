@@ -1,4 +1,4 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
+a/* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -70,3 +70,228 @@ table {
   *zoom: 1;
 }
 /*               End of Setup             */
+
+/*                  Font                  */
+@font-face {
+  font-family: "Myriad Set Pro";
+  src: url("fonts/myriad-set-pro_bold.ttf") format("truetype");
+  font-weight: 700;
+}
+@font-face {
+  font-family: "Myriad Set Pro";
+  src: url("fonts/myriad-set-pro_semibold.ttf") format("truetype");
+  font-weight: 600;
+}
+@font-face {
+  font-family: "Myriad Set Pro";
+  src: url("fonts/myriad-set-pro_medium.ttf") format("truetype");
+  font-weight: 500;
+}
+@font-face {
+  font-family: "Myriad Set Pro";
+  src: url("fonts/myriad-set-pro_text.ttf") format("truetype");
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Myriad Set Pro";
+  src: url("fonts/myriad-set-pro_thin.ttf") format("truetype");
+  font-weight: 300;
+}
+@font-face {
+  font-family: "Myriad Set Pro";
+  src: url("fonts/myriad-set-pro_ultralight.ttf") format("truetype");
+  font-weight: 100;
+}
+/*                  CSS                   */
+.container {
+  max-width: 1024px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+nav {
+  background: #333333;
+  display: flex;
+  flex-flow: row nowrap;
+  
+}
+
+nav div {
+  height: 44px;
+  max-width: 1024px;
+  display: flex;
+  flex-grow: 1;
+  justify-content: center;
+  align-items: center;
+}
+
+nav ul {
+  height: 44px;
+  display: flex;
+  flex-flow: row nowrap;
+  flex-grow: 1;
+  justify-content: space-between;
+}
+
+nav li {
+  height: 44px;
+}
+
+.nav-item {
+  display: inline-block;
+  margin: 0;
+  height: 44px;
+  text-decoration: none;
+}
+
+#nav-apple-logo {
+  width: 20px;
+  background: url("images/navbar/apple-icon.png") center no-repeat;
+}
+
+#nav-mac {
+  width: 31px;
+  background: url("images/navbar/mac.png") center no-repeat;
+}
+
+#nav-ipad {
+  width: 30px;
+  background: url("images/navbar/ipad.png") center no-repeat;
+}
+
+#nav-iphone {
+  width: 48px;
+  background: url("images/navbar/iphone.png") center no-repeat;
+}
+
+#nav-watch {
+  width: 44px;
+  background: url("images/navbar/watch.png") center no-repeat;
+}
+
+#nav-tv {
+  width: 20px;
+  background: url("images/navbar/tv.png") center no-repeat;
+}
+
+#nav-music {
+  width: 40px;
+  background: url("images/navbar/music.png") center no-repeat;
+}
+
+#nav-support {
+  width: 57px;
+  background: url("images/navbar/support.png") center no-repeat;
+}
+
+#nav-search {
+  width: 20px;
+  background: url("images/navbar/search.png") center no-repeat;
+}
+
+#nav-shop {
+  width: 18px;
+  background: url("images/navbar/shop.png") center no-repeat;
+}
+
+body {
+  font-family: "Myriad Set Pro","Helvetica Neue","Helvetica","Arial",sans-serif;
+  -webkit-font-smoothing: antialiased;
+  font-size: 18px;
+  line-height: 1.45;
+  font-weight: 400;
+  letter-spacing: normal;
+  color: #333;
+}
+
+h1 {
+  font-size: 3em;
+}
+h2 {
+  font-size: 1.5em;
+}
+
+.hero-section {
+  margin-top: 10px;
+  height: 600px;
+  background: url("images/hero_iphone_13pro.jpg") center no-repeat;
+  text-align: center;
+}
+
+.hero-header {
+  margin-top: 40px;
+}
+
+#hero-title {
+  font-weight: 600;
+}
+
+.link-item {
+  display: inline-block;
+  font-size: 23.7px;
+  line-height: 1.3375;
+  font-weight: 300;
+  margin: 0 6px 12px;
+  color: #08C;
+  text-decoration: none;
+}
+
+.link-item:visited {
+  color: #08C;
+}
+
+.link-item:hover {
+  text-decoration: underline;
+  color: black;
+}
+
+.hero-sub {
+  width: 100%;
+  margin-top: 20px;
+  display: flex;
+  flex-flow: column nowrap;
+  
+  align-items: center;
+}
+
+.hero-sub ul {
+  width: 100%;
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+.col-3 {
+  display: inline-block;
+  width: calc((100% / 12) * 4);
+}
+
+#hero-sub-1 {
+  background: url("images/watch_large.jpg") center no-repeat;
+  height: 200px;
+}
+
+#hero-sub-2 {
+  background: url("images/ipad_pro_large.jpg") center no-repeat;
+  height: 200px;
+}
+
+#hero-sub-3 {
+  background: url("images/accessories_large.jpg") center no-repeat;
+  height: 200px;
+}
+
+#hero-sub-4 {
+  background: url("images/macbook_large.jpg") center no-repeat;
+  height: 200px;
+}
+
+.hero-sub a {
+  color: #0088CC;
+  margin: 20px 0 20px;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+.hero-sub a:hover {
+  text-decoration: underline;
+}
