@@ -1,0 +1,99 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Make page feel native by disabling zoom (pinch) -->
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"> -->
+    <title>Document</title>
+    <link rel="stylesheet" href="./bootstrap.css" />
+    <link rel="stylesheet" href="./custom.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-4">1st column, starts on the left</div>
+        <div class="col-xs-4">2nd column</div>
+        <div class="col-xs-4">3rd column</div>
+      </div>
+      <div class="row">
+        <div class="col-xs-3">col-xs-3</div>
+        <div class="col-xs-3">col-xs-3</div>
+        <div class="col-xs-3">col-xs-3</div>
+        <div class="col-xs-3">col-xs-3</div>
+      </div>
+      <div class="row">
+        <div class="col-xs-3">col-xs-3</div>
+        <div class="col-xs-3">col-xs-3</div>
+        <div class="col-xs-3">col-xs-3</div>
+        <div class="col-xs-4">col-xs-4</div>
+      </div>
+      <br />
+      <p>Content with padding, add it sinde the .col div</p>
+      <div class="row">
+        <div class="col-xs-3">
+          <div class="content">col-xs-3</div>
+        </div>
+        <div class="col-xs-3">
+          <div class="content">col-xs-3</div>
+        </div>
+        <div class="col-xs-3">
+          <div class="content">col-xs-3</div>
+        </div>
+        <div class="col-xs-3">
+          <div class="content">col-xs-3</div>
+        </div>
+      </div>
+      <br />
+      <p>Column Break Points</p>
+      <div class="row">
+        <div class="col-xs-12 col-md-4">.col-xs-12<br />.col-md-4</div>
+        <div class="col-xs-12 col-md-4">.col-xs-12<br />.col-md-4</div>
+        <div class="col-xs-12 col-md-4">.col-xs-12<br />.col-md-4</div>
+      </div>
+      <p>Diffrent widths at each screen size</p>
+      <div class="row">
+        <div class="row">
+          <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2">.col-xs-6<br />.col-sm-4<br />.col-md-3<br />.col-lg-2</div>
+          <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2">.col-xs-6<br />.col-sm-4<br />.col-md-3<br />.col-lg-2</div>
+          <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2">.col-xs-6<br />.col-sm-4<br />.col-md-3<br />.col-lg-2</div>
+        </div>
+      </div>
+      <br />
+      <p>Offset</p>
+      <div class="row">
+        <div class="col-xs-6 col-xs-offset-3">col-xs-6 col-xs-offset-3</div>
+        <div class="col-xs-3">col-xs-3</div>
+        <div class="col-xs-3 col-md-6 col-md-offset-6">col-xs-3 col-md-6 col-md-offset-6</div>
+        <div class="col-xs-3 col-md-6">col-xs-3 col-md-6 col-md-offset-6</div>
+      </div>
+      <br />
+      <p>Push and Pull</p>
+      <div class="row">
+        <div class="col-xs-9">col-xs-9</div>
+        <div class="col-xs-3">col-xs-3</div>
+        <div class="col-xs-9 col-xs-push-3">col-xs-9 col-xs-push-3</div>
+        <div class="col-xs-3 col-xs-pull-9">col-xs-3 col-xs-pull-9</div>
+        <div class="col-xs-9 col-xs-push-3">col-xs-9 col-xs-push-3</div>
+        <div class="col-xs-3">col-xs-3</div>
+      </div>
+      <br />
+      <p>Nesting</p>
+      <div class="row">
+        <div class="col-xs-9">
+          Level 1: .col-xs-9
+          <div class="row">
+            <!-- Must add row between layers -->
+            <div class="col-xs-8 col-sm-6">Level 2: .col-xs-8 .col-sm-6</div>
+            <div class="col-xs-4 col-sm-6">Level 2: .col-xs-4 .col-sm-6</div>
+          </div>
+          <div class="row">
+            <!-- Must add row between layers -->
+            <div class="col-xs-8 col-sm-6">Level 2: .col-xs-8 .col-sm-6</div>
+            <div class="col-xs-4 col-sm-6">Level 2: .col-xs-4 .col-sm-6</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
